@@ -1,0 +1,25 @@
+.clickenter-0 img{
+  width: 10em;
+  margin: 0 auto;
+  display: block;
+  margin-top: 4em;
+}
+.clickenter-1{
+  font-size: 40px;
+  text-align: center;
+}
+.clickenter-2{
+  font-size: 20px;
+  text-align: center;
+}
+.clickenter-3{
+  width: 24em;
+  height: 3em;
+  margin: 0 auto;
+  display: block;
+  margin-top: 3em;
+  color:#fff;
+  border:2px solid;
+  border-radius:5px;
+  background: linear-gradient(to bottom right, orange , red); /* 标准的语法 */
+}

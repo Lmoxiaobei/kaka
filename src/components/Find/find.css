@@ -1,0 +1,168 @@
+.find-0{
+  background-color: #DEDEDE;
+  width: 100vw;
+  height: 100vh;
+}
+.find-1{
+  width: 100%;
+  background-image: url(../images/13.png);
+  height: 10%;
+}
+.find-1-1{
+  display: block;
+  margin: 0 auto;
+}
+.find-2{
+  width: 96%;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 4%;
+  position: relative;
+}
+
+.find-2-1{
+  font-size: 12px;
+  margin-left: 10%;
+}
+.find-2-2{
+  width: 5%;
+}
+.find-2-3{
+  font-size: 12px;
+  margin-left: 10%;
+}
+.find-2-4{
+  width: 8%;
+  margin-left: 65%;
+  padding-top: 1%;
+}
+.find-2-5, .find-2-6, .find-2-7{
+  width: 20%;
+  margin-left: 10%;
+}
+
+.find-2-8{
+  width: 10%;
+  position: fixed;
+  top:11%;
+  left:-1%;
+  border-radius: 50%;
+  border:2px solid #fff;
+}
+.find-2-9-1{
+  color:#D8BFD8;
+  font-size: 12px;
+  margin-left: 13%;
+}
+.find-2-9-2{
+  width: 4%;
+}
+.find-2-9-3{
+  color:#D8BFD8;
+  font-size: 12px;
+}
+.find-2-9-4,.find-2-9-6, .find-2-9-8{
+  width: 4%;
+  margin-left: 1%;
+}
+.find-2-9-5, .find-2-9-7, .find-2-9-9{
+  font-size: 14px;
+  margin-left: 1%;
+}
+
+/*第二张*/
+.find-3{
+  width: 96%;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 4%;
+  position: relative;
+}
+
+.find-3-1{
+  font-size: 12px;
+  margin-left: 10%;
+}
+.find-3-2{
+  width: 5%;
+}
+.find-3-3{
+  font-size: 12px;
+  margin-left: 10%;
+}
+.find-3-4{
+  width: 8%;
+  margin-left: 65%;
+  padding-top: 1%;
+}
+.find-3-5, .find-3-6, .find-3-7{
+  width: 20%;
+  margin-left: 10%;
+}
+
+.find-3-8{
+  width: 10%;
+  position: fixed;
+  top:39%;
+  left:-1%;
+  border-radius: 50%;
+  border:2px solid #fff;
+}
+.find-3-9-1{
+  color:#D8BFD8;
+  font-size: 12px;
+  margin-left: 13%;
+}
+.find-3-9-2{
+  width: 4%;
+}
+.find-3-9-3{
+  color:#D8BFD8;
+  font-size: 12px;
+}
+.find-3-9-4,.find-3-9-6, .find-3-9-8{
+  width: 4%;
+  margin-left: 1%;
+}
+.find-3-9-5, .find-3-9-7, .find-3-9-9{
+  font-size: 14px;
+  margin-left: 1%;
+}
+/*第三张*/
+.find-4{
+  width: 96%;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 4%;
+  position: relative;
+}
+
+.find-4-1{
+  font-size: 12px;
+  margin-left: 10%;
+}
+.find-4-2{
+  width: 5%;
+}
+.find-4-5{
+  width: 10%;
+  position: fixed;
+  top:72%;
+  left:-1%;
+  border-radius: 50%;
+  border:2px solid #fff;
+}
+.find-4-3{
+  width: 8%;
+  margin-left: 65%;
+  padding-top: 1%;
+}
+.find-4-4{
+  width: 90%;
+  height: 10%;
+  margin: 0 auto;
+  display: block;
+}

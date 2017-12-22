@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+.bootpage-0{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.bootpage-1{
+  width: 400vw;
+  display: flex;
+  flex-shrink: 0;
+  transition: all 1s;
+}
+.bootpage-1 img{
+    width: 100vw;
+    height: 100vh;
+}

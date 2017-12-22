@@ -1,0 +1,75 @@
+.homepage-0{
+  width: 100%;
+  height: 100vh;
+}
+.homepage-1 {
+  padding-top: 2%;
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+}
+.homepage-2{
+  background-color: #E0E0E0;
+  margin: 0 auto;
+  display: block;
+  margin-top: 10%;
+  width: 87%;
+  height: 6%;
+}
+.homepage-3{
+  background-color: #E0E0E0;
+  margin: 0 auto;
+  width: 87%;
+  height:6%;
+  display: block;
+}
+.homepage-6{
+  width: 7%;
+  position: absolute;
+  left: 8%;
+  top:25%;
+}
+.homepage-7{
+  width: 7%;
+  position: absolute;
+  left: 8%;
+  top:31%;
+}
+.homepage-8{
+  font-size: 12px;
+  margin-left: 47%;
+}
+.homepage-9{
+  font-size: 12px;
+}
+.homepage-10{
+  width: 87%;
+  height: 7%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 13%;
+  color:#fff;
+  border:2px solid;
+  border-radius:5px;
+  background: linear-gradient(to bottom right, orange , red); /* 标准的语法 */
+}
+.homepage-11{
+  color:red;
+  text-align: center;
+}
+.homepage-12 p{
+  text-align: center;
+}
+.homepage-12 img{
+  width: 10%;
+  margin-left: 7%;
+}
+.homepage-13{
+    width: 25%;
+    height: 5%;
+    display: block;
+    margin: 0 auto;
+    background-color: #DEDEDE;
+    border-radius:10px;
+    color:#fff
+}
