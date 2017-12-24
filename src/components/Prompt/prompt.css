@@ -1,0 +1,97 @@
+.prompt-0-0{
+  width: 100vw;
+  height: 100vh;
+  background-color: #F8F8FF;
+}
+.prompt-0{
+  background-image: url(../images/13.png);
+}
+.prompt-1{
+  margin: 0 auto;
+  display: block;
+}
+.prompt-2{
+  display: flex;
+  background-color: #F8F8FF;
+}
+.prompt-2 p{
+  font-size: 18px;
+}
+.prompt-2 span{
+  font-size: 14px;
+}
+.prompt-2-1{
+  width: 10%;
+  height: 10%;
+  margin-left: 4%;
+  margin-top: 4%;
+}
+.prompt-2-2{
+  width: 96%;
+  margin-left: 6%;
+  border-bottom: 1px solid #D3D3D3;
+  padding-bottom: 2%;
+}
+.prompt-2-5{
+  margin-left: 53%;
+}
+
+/**/
+.prompt-3{
+  display: flex;
+  background-color: #F8F8FF;
+}
+.prompt-3 p{
+  font-size: 18px;
+}
+.prompt-3 span{
+  font-size: 14px;
+}
+.prompt-3-1{
+  width: 10%;
+  height: 10%;
+  margin-left: 4%;
+  margin-top: 4%;
+}
+.prompt-3-2{
+  width: 96%;
+  margin-left: 6%;
+  border-bottom: 1px solid #D3D3D3;
+  padding-bottom: 2%;
+}
+.prompt-3-5{
+  margin-left: 18%;
+}
+
+
+/**/
+.prompt-4{
+  display: flex;
+  background-color: #F8F8FF;
+}
+.prompt-4 p{
+  font-size: 18px;
+}
+.prompt-4 span{
+  font-size: 14px;
+}
+.prompt-4-1{
+  width: 10%;
+  height: 10%;
+  margin-left: 4%;
+  margin-top: 4%;
+}
+.prompt-4-2{
+  width: 96%;
+  margin-left: 6%;
+  border-bottom: 1px solid #D3D3D3;
+  padding-bottom: 2%;
+}
+.prompt-4-4{
+  width: 96%;
+}
+.prompt-4-5{
+  margin-left: 67%;
+  margin-top: 4%;
+  display: block;
+}

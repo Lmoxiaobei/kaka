@@ -11,6 +11,7 @@ import Cancel from '..//Cancel/Cancel'
 import Task from '..//Task/Task'
 import Details from '..//Details/Details'
 import Publish from '..//Publish/Publish'
+import Prompt from '..//Prompt/Prompt'
 
 class App extends React.Component {
   render () {
@@ -29,6 +30,7 @@ class App extends React.Component {
           <Route path='/topic/create/home/cancel' component={Cancel} />
           <Route path='/topic/create/find' exact component={Find} />
           <Route path='/topic/create/find/forward' component={Forward} />
+          <Route path='/topic/create/prompt' component={Prompt} />
         </Switch>
       </div>
     </Router>

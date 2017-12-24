@@ -16,7 +16,7 @@
 .publish-3{
   color: #fff;
   margin-top: 1%;
-  margin-left: 33%;
+  margin-left: 26%;
   margin-bottom: 1%;
 }
 .publish-4{
@@ -36,9 +36,57 @@
   margin-top: 10%;
   margin-bottom: -3%;
 }
-.publish-6 span{
+.publish-6-1{
   margin-left: 10%;
+}
+.publish-6{
+  border-bottom: 1px solid #000;
+  padding-bottom: 4%;
 }
 .publish-8{
   width: 4%;
+}
+.publish-9-1{
+  font-size: 14px;
+}
+.publish-9{
+  width: 86%;
+  margin-left: 10%;
+}
+.publish-9-1-1{
+  background-color: #EEEEE0;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  border-radius: 5px;
+}
+.publish-9-2{
+  color: #BEBEBE;
+}
+.publish-9-3{
+  font-size: 14px;
+}
+/**/
+.publish-10{
+  border-bottom: 1px solid #000;
+  padding-bottom: 4%;
+  margin-top: 5%;
+}
+.publish-10-2{
+  margin-left: 9%;
+}
+.publish-10-3{
+  width: 4%;
+}
+.publish-10-5{
+  margin-left: 10%;
+}
+.publish-11{
+  height: 10%;
+  background-color: red;
+  margin-top: 53%;
+}
+.publish-12{
+  margin-top: 6%;
+  margin-left: 12%;
+  width: 77%;
 }
