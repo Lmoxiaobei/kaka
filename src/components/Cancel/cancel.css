@@ -1,0 +1,27 @@
+.cancel-0{
+  width: 100vw;
+  height: 100vh;
+}
+.cancel-1{
+  width: 100%;
+  background-color: red;
+  position: fixed;
+}
+.cancel-2{
+  margin-left: 10%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  width: 73%;
+}
+.cancel-3{
+  width: 3%;
+  position: relative;
+  left:-6%;
+}
+.cancel-4{
+  color:#fff;
+}
+.cancel-5{
+  margin-left: 30%;
+  margin-top: 80%;
+}

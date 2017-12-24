@@ -1,5 +1,5 @@
 import React from 'react'
-import './index.css'
+import './home.css'
 import { Link } from 'react-router-dom'
 import img11 from '../images/11.png'
 import img12 from '../images/12.png'
@@ -20,7 +20,7 @@ import img29 from '../images/29.svg'
 import img13 from '../images/banner3.png'
 import img14 from '../images/banner1.jpg'
 import img15 from '../images/banner2.jpg'
-class Index extends React.Component {
+class Home extends React.Component {
   state = {
     tabsTitle:[
       {
@@ -51,7 +51,7 @@ return  this.loop = setInterval( () => {
     this.setState({
       show:show
     })
-  },4000)
+  },2000)
 }
 
 componentDidMount(){
@@ -64,20 +64,31 @@ handleLeave = () => {
   this.loop = this.tumer()
 }
 
+
+
+
+// 在组件将要被移除的时候，清除 loop
+componentWillUnmount() {
+  clearTimeout(this.loop)
+}
+
+
   render () {
 
     let ml = `${this.state.show*-375}px`
         return(
           <div className='index-0'>
             <div className='index-1'>
-              <Link to='/topic/create/index/choice'>
+              <Link to='/topic/create/home/choice'>
                 <div className='index-1-2'>
                   <p className='index-1-3'>武汉</p>
                   <img className='index-1-4' src={img11} alt=""/>
                 </div>
               </Link>
               <img className='index-1-1' src={img29} alt=""/>
-              <img className='index-2' src={img12} alt=""/>
+              <Link to='/topic/create/home/cancel'>
+                <img className='index-2' src={img12} alt=""/>
+              </Link>
             </div>
 
             <div className='index-3' onMouseEnter={ this.handleEnter } onMouseLeave={ this.handleLeave }>
@@ -93,18 +104,22 @@ handleLeave = () => {
             </div>
 
             <div className='index-6'>
-              <div className='index-7'>
-                <p>想了解一下武汉市昌区汉街的街景和街上的几个咖啡厅里面的情况...</p>
-                <img className='index-7-1' src={img16} alt=""/>
-                <span className='index-7-2'>chen xx</span>
-                <img className='index-7-3' src={img21} alt=""/>
-                <img className='index-7-4' src={img19} alt=""/>
-                <span className='index-7-5'>50</span>
-                <div className='index-7-6'>
-                  <img className='index-7-6-1' src={img20} alt=""/>
-                  <span className='index-7-6-2'>上海市浦东区</span>
+              <Link to='/topic/create/home/task'>
+                <div className='index-7'>
+                  <p>想了解一下武汉市昌区汉街的街景和街上的几个咖啡厅里面的情况...</p>
+                  <img className='index-7-1' src={img16} alt=""/>
+                  <span className='index-7-2'>chen xx</span>
+                  <img className='index-7-3' src={img21} alt=""/>
+                  <img className='index-7-4' src={img19} alt=""/>
+                  <span className='index-7-5'>50</span>
+                  <div className='index-7-6'>
+                    <img className='index-7-6-1' src={img20} alt=""/>
+                    <span className='index-7-6-2'>上海市浦东区</span>
+                  </div>
                 </div>
-              </div>
+              </Link>
+
+          <Link to='/topic/create/home/details'>
               <div className='index-8'>
                 <p className='index-8-1'>我想知道这个星巴克现在的客流量怎么样...</p>
                 <div><img className='index-8-2' src={img18} alt=""/></div>
@@ -118,6 +133,8 @@ handleLeave = () => {
                     <span className='index-8-7-2'>合肥市包河区</span>
                   </div>
               </div>
+          </Link>
+
             </div>
 
             <div className='index-9'>
@@ -135,7 +152,9 @@ handleLeave = () => {
                 <span className='index-11-2' >6326</span>
                 <img className='index-11-3' src={img27} alt=""/>
                 <span className='index-11-4' >70</span>
-                <img className='index-11-5' src={img28} alt=""/>
+                <Link to='/topic/create/home/publish'>
+                  <img className='index-11-5' src={img28} alt=""/>
+                </Link>
                 <span className='index-11-6' >261</span>
               </div>
             </div>
@@ -146,4 +165,4 @@ handleLeave = () => {
   }
 }
 
-export default Index;
+export default Home;

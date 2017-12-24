@@ -1,0 +1,44 @@
+.publish-0{
+  width: 100vw;
+  height: 100vh;
+}
+.publish-1{
+  background-image: url(../images/13.png);
+  display: flex;
+}
+.publish-2{
+  width: 50%;
+  height: 70%;
+  padding-top: 10%;
+  margin-left: 1%;
+  display: block;
+}
+.publish-3{
+  color: #fff;
+  margin-top: 1%;
+  margin-left: 33%;
+  margin-bottom: 1%;
+}
+.publish-4{
+  width: 94%;
+  margin: 0 auto;
+}
+.publish-5{
+  border-bottom: 1px solid #C9C9C9;
+}
+.publish-5 span{
+  margin-bottom: 1%;
+  margin-top: 1%;
+  display: block;
+}
+.publish-7{
+  width: 10%;
+  margin-top: 10%;
+  margin-bottom: -3%;
+}
+.publish-6 span{
+  margin-left: 10%;
+}
+.publish-8{
+  width: 4%;
+}

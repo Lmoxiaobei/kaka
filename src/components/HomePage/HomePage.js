@@ -19,7 +19,7 @@ class HomePage extends React.Component {
           <span className='homepage-8'>忘记密码?</span>
           <span className='homepage-9'>重置</span>
           <br/>
-          <Link to='/topic/create/index'>
+          <Link to='/topic/create/home'>
             <button className='homepage-10'>登录</button>
 
           </Link>
