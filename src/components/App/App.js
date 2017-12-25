@@ -16,6 +16,9 @@ import Promptq from '..//Promptq/Promptq'
 import Promptw from '..//Promptw/Promptw'
 import Prompte from '..//Prompte/Prompte'
 import Sign from '..//Sign/Sign'
+import Completed from '..//Completed/Completed'
+import Completedq from '..//Completedq/Completedq'
+import Completedw from '..//Completedw/Completedw'
 import Foot from '..//Foot/Foot'
 
 class App extends React.Component {
@@ -35,7 +38,10 @@ class App extends React.Component {
           <Route path='/topic/create/home/cancel' component={Cancel} />
           <Route path='/topic/create/find' exact component={Find} />
           <Route path='/topic/create/find/forward' component={Forward} />
-          <Route path='/topic/create/sign' component={Sign} />
+          <Route path='/topic/create/sign' exact component={Sign} />
+          <Route path='/topic/create/sign/completed' component={Completed} />
+          <Route path='/topic/create/sign/completedq' component={Completedq} />
+          <Route path='/topic/create/sign/completedw' component={Completedw} />
           <Route path='/topic/create/prompt' exact component={Prompt} />
           <Route path='/topic/create/prompt/promptq' component={Promptq} />
           <Route path='/topic/create/prompt/promptw' component={Promptw} />

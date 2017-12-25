@@ -58,17 +58,20 @@ class  Sign extends React.Component {
 
           <div className='sign-4'></div>
 
-            <div className='sign-5-0'>
-              <div className='sign-5'>
-                <img className='sign-5-1' src={img61} alt=""/>
-                <div className='sign-5-2'>
-                  <span className='sign-5-3'>已完成任务</span>
-                  <img className='sign-5-4' src={img30} alt=""/>
+
+            <Link to='/topic/create/sign/completed'>
+              <div className='sign-5-0'>
+                <div className='sign-5'>
+                  <img className='sign-5-1' src={img61} alt=""/>
+                  <div className='sign-5-2'>
+                    <span className='sign-5-3'>已完成任务</span>
+                    <img className='sign-5-4' src={img30} alt=""/>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
 
-
+          <Link to='/topic/create/sign/completed'>
             <div className='sign-6-0'>
               <div className='sign-6'>
                 <img className='sign-6-1' src={img62} alt=""/>
@@ -78,7 +81,10 @@ class  Sign extends React.Component {
                 </div>
               </div>
             </div>
+          </Link>
 
+
+          <Link to='/topic/create/sign/completedw'>
             <div className='sign-7-0'>
               <div className='sign-7'>
                 <img className='sign-7-1' src={img63} alt=""/>
@@ -88,6 +94,9 @@ class  Sign extends React.Component {
                 </div>
               </div>
             </div>
+          </Link>
+
+
 
             <div className='sign-8'></div>
 
