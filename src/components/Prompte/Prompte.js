@@ -16,7 +16,7 @@ class Prompte extends React.Component {
           <div>
             <div className='prompte-1'>
               <Link to='/topic/create/prompt'>
-                <img className='prompte-2' src={img44} alt=""/>
+                <img  onClick={() => this.props.history.goBack()} className='prompte-2' src={img44} alt=""/>
               </Link>
                 <span className='prompte-3'>我的账户</span>
                 <img className='prompte-3-1' src={img48} alt=""/>

@@ -1,0 +1,227 @@
+.sign-0{
+  background-color: #DEDEDE;
+  width: 100vw;
+  height: 100vh;
+}
+.sign-1{
+  width: 100%;
+  background-image: url(../images/13.png);
+  height: 10%;
+}
+.sign-1-1{
+  display: block;
+  margin: 0 auto;
+}
+.sign-9{
+  width: 100%;
+  background-image: url(../images/13.png);
+  height: 40%;
+}
+.sign-9-1{
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+.sign-9-2{
+  background-color: red;
+  width: 24%;
+  color: #fff;
+  margin-left: 8%;
+}
+.sign-9-4{
+  text-align: center;
+  color: #fff;
+}
+.sign-9-5{
+  margin-left: 38%;
+  background-color: red;
+  color: #fff;
+}
+/**/
+.sign-2{
+  display: flex;
+
+}
+.sign-2-4{
+  transform: rotate(-90deg);
+  width: 8%;
+  margin-left: 70%;
+}
+.sign-2-1{
+  width: 6%;
+  height: 6%;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+.sign-2-2{
+  margin-left: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+/**/
+.sign-3{
+  display: flex;
+}
+.sign-3-4{
+  transform: rotate(-90deg);
+  width: 8%;
+  margin-left: 70%;
+}
+.sign-3-1{
+  width: 6%;
+  height: 6%;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+.sign-3-2{
+  margin-left: 10%;
+  padding-top: 5%;
+  width: 100%;
+  padding-bottom: 2%;
+}
+/**/
+.sign-4{
+  width: 100%;
+  height: 10px;
+  background-color: #BEBEBE;
+}
+/**/
+.sign-5{
+  display: flex;
+}
+.sign-5-4{
+  transform: rotate(-90deg);
+  width: 8%;
+  margin-left: 65%;
+}
+.sign-5-1{
+  width: 6%;
+  height: 6%;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+.sign-5-2{
+  margin-left: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+/**/
+.sign-6{
+  display: flex;
+}
+.sign-6-4{
+  transform: rotate(-90deg);
+  width: 8%;
+  margin-left: 65%;
+}
+.sign-6-1{
+  width: 6%;
+  height: 6%;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+.sign-6-2{
+  margin-left: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+/**/
+.sign-7{
+  display: flex;
+}
+.sign-7-4{
+  transform: rotate(-90deg);
+  width: 8%;
+  margin-left: 70%;
+}
+.sign-7-1{
+  width: 6%;
+  height: 6%;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+.sign-7-2{
+  margin-left: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+.sign-8{
+  width: 100%;
+  height: 10px;
+  background-color: #BEBEBE;
+}
+/**/
+.sign-12{
+  display: flex;
+}
+.sign-12-4{
+  transform: rotate(-90deg);
+  width: 8%;
+  margin-left: 70%;
+}
+.sign-12-1{
+  width: 6%;
+  height: 6%;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+.sign-12-2{
+  margin-left: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+/**/
+.sign-10{
+  display: flex;
+}
+.sign-10-4{
+  transform: rotate(-90deg);
+  width: 8%;
+  margin-left: 70%;
+}
+.sign-10-1{
+  width: 6%;
+  height: 6%;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+.sign-10-2{
+  margin-left: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+/**/
+.sign-11{
+  display: flex;
+  padding-bottom: 16%;
+}
+.sign-11-4{
+  transform: rotate(-90deg);
+  width: 8%;
+  margin-left: 80%;
+}
+.sign-11-1{
+  width: 6%;
+  height: 6%;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+.sign-11-2{
+  margin-left: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}

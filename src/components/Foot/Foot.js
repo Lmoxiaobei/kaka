@@ -39,11 +39,12 @@ class Foot extends React.Component {
             </div>
           </Link>
 
-          <div className='foot-5'>
-            <img src={img56} alt=""/>
-            <p>我的</p>
-          </div>
-
+          <Link to='/topic/create/sign'>
+            <div className='foot-5'>
+              <img src={img56} alt=""/>
+              <p>我的</p>
+            </div>
+          </Link>
         </div>
       )
   }

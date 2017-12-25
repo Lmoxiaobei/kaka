@@ -18,7 +18,7 @@ class Prompt extends React.Component {
               <div className='prompt-2'>
                 <img className='prompt-2-1' src={img35} alt=""/>
                 <div className='prompt-2-2'>
-                  <p className='prompt-2-3'>初夏</p>
+                  <p className='prompt-2-3'  >初夏</p>
                   <span className='prompt-2-4'>在么?</span>
                   <span className='prompt-2-5'>昨天 17 : 43</span>
                 </div>
