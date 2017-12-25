@@ -1,5 +1,6 @@
 import React from 'react'
 import './publish.css'
+import Foot from '../Foot/Foot'
 import { Link } from 'react-router-dom'
 import img44 from '../images/44.png'
 import img21 from '../images/21.png'
@@ -49,6 +50,7 @@ class Publish extends React.Component {
                 <input className='publish-12' type="text"/>
             </div>
 
+          <Foot />
           </div>
         )
   }

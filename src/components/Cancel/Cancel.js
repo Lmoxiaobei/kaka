@@ -2,6 +2,7 @@ import React from 'react'
 import './cancel.css'
 import img42 from '../images/42.png'
 import img43 from '../images/43.png'
+import Foot from '../Foot/Foot'
 import { Link } from 'react-router-dom'
 class Cancel extends React.Component {
   render () {
@@ -15,6 +16,7 @@ class Cancel extends React.Component {
                   </Link>
             </div>
             <img className='cancel-5' src={img43} alt=""/>
+            <Foot />
         </div>
       )
   }

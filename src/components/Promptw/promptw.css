@@ -1,0 +1,56 @@
+.promptw-0{
+  background-color: #FFE4E1;
+  width: 100vw;
+  height: 100vh;
+}
+.promptw-1{
+  background-image: url(../images/13.png);
+  display: flex;
+}
+.promptw-2{
+  width: 50%;
+  height: 70%;
+  padding-top: 20%;
+  margin-left: 17%;
+  display: block;
+}
+.promptw-3{
+  color: #fff;
+  margin-top: 2%;
+  margin-left: 28%;
+  margin-bottom: 1%;
+}
+.promptw-4{
+  background-color: #FFE4E1;
+  display: flex;
+}
+.promptw-4 span{
+  margin: 0 auto;
+  background-color: #8B7D6B;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding: 6px;
+}
+.promptw-5{
+    background-color: #fff;
+    width: 96%;
+    margin: 0 auto;
+    height: 36%;
+    border-radius: 5px;
+    /*display: flex;*/
+}
+.promptw-5-1{
+    margin-left: 4%;
+}
+.promptw-5-2{
+  color: #838B8B;
+  font-size: 14px;
+
+}
+.promptw-6{
+  width: 96%;
+  margin-left: 4%;
+  margin-top: 30%;
+}

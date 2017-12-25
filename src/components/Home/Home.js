@@ -1,5 +1,6 @@
 import React from 'react'
 import './home.css'
+import Foot from '../Foot/Foot' 
 import { Link } from 'react-router-dom'
 import img11 from '../images/11.png'
 import img12 from '../images/12.png'
@@ -159,7 +160,7 @@ componentWillUnmount() {
               </div>
             </div>
 
-
+          <Foot />
           </div>
         )
   }

@@ -1,6 +1,7 @@
 import React from 'react'
 import img29 from '../images/29.svg'
 import './find.css'
+import Foot from '../Foot/Foot'
 import { Link } from 'react-router-dom'
 import img20 from '../images/20.png'
 import img21 from '../images/21.png'
@@ -87,7 +88,7 @@ class Find extends React.Component {
           </div>
         </div>
 
-
+      <Foot />
       </div>
     )
   }

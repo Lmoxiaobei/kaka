@@ -1,6 +1,7 @@
 import React from 'react'
 import './task.css'
 import { Link } from 'react-router-dom'
+import Foot from '../Foot/Foot'
 import img44 from '../images/44.png'
 import img16 from '../images/16.png'
 import img19 from '../images/19.png'
@@ -13,10 +14,10 @@ class Task extends React.Component {
               <div className='task-1'>
                 <Link to='/topic/create/home'>
                   <img className='task-2' src={img44} alt=""/>
-
                 </Link>
                   <span className='task-3'>任务详情</span>
               </div>
+
               <div className='task-4'>
                   <img className='task-5' src={img16} alt=""/>
                   <div>
@@ -39,8 +40,11 @@ class Task extends React.Component {
 
             <div className='task-17'></div>
 
-            <p className='task-18'>接受任务</p>
+            <div className='task-19'>
+              <p className='task-18'>接受任务</p>
+            </div>
 
+          <Foot />
           </div>
         )
   }

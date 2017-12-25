@@ -12,6 +12,10 @@ import Task from '..//Task/Task'
 import Details from '..//Details/Details'
 import Publish from '..//Publish/Publish'
 import Prompt from '..//Prompt/Prompt'
+import Promptq from '..//Promptq/Promptq'
+import Promptw from '..//Promptw/Promptw'
+import Prompte from '..//Prompte/Prompte'
+import Foot from '..//Foot/Foot'
 
 class App extends React.Component {
   render () {
@@ -30,7 +34,12 @@ class App extends React.Component {
           <Route path='/topic/create/home/cancel' component={Cancel} />
           <Route path='/topic/create/find' exact component={Find} />
           <Route path='/topic/create/find/forward' component={Forward} />
-          <Route path='/topic/create/prompt' component={Prompt} />
+          <Route path='/topic/create/prompt' exact component={Prompt} />
+          <Route path='/topic/create/prompt/promptq' component={Promptq} />
+          <Route path='/topic/create/prompt/promptw' component={Promptw} />
+          <Route path='/topic/create/prompt/prompte' component={Prompte} />
+
+          <Foot />
         </Switch>
       </div>
     </Router>

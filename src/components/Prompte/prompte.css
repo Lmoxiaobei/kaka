@@ -1,0 +1,88 @@
+.prompte-1{
+  background-image: url(../images/13.png);
+  display: flex;
+}
+.prompte-2{
+  width: 50%;
+  height: 70%;
+  padding-top: 20%;
+  margin-left: 17%;
+  display: block;
+}
+.prompte-3{
+  color: #fff;
+  margin-top: 2%;
+  margin-left: 28%;
+  margin-bottom: 1%;
+}
+.prompte-3-1{
+  width: 6%;
+  height: 6%;
+  margin-left: 28%;
+  margin-top: 2%;
+}
+.prompte-4{
+  display: flex;
+  border-bottom: 1px solid #000;
+}
+.prompte-4-1-1{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 25%;
+}
+.prompte-4-2{
+  margin-left: 10%;
+}
+.prompte-4-2-1{
+  margin-top: 10%;
+}
+.prompte-4-3 Button{
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 210%;
+  margin-top: 30%;
+}
+/**/
+.prompte-5{
+  display: flex;
+  border-bottom: 1px solid #000;
+}
+.prompte-5-1-1{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 25%;
+}
+.prompte-5-2{
+  margin-left: 10%;
+}
+.prompte-5-2-1{
+  margin-top: 10%;
+}
+.prompte-5-3 Button{
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 210%;
+  margin-top: 30%;
+}
+/**/
+.prompte-6 img{
+    margin-left: 30%;
+    display: block;
+    margin-top: 20%;
+}
+.prompte-7{
+  display: flex;
+}
+.prompte-7 img{
+  width: 66%;
+}
+.prompte-7-1{
+  margin-left: 27%;
+  margin-top: 10%;
+}
+.prompte-7-2{
+  margin-left: 15%;
+  margin-top: 10%;
+}

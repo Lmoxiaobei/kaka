@@ -1,5 +1,6 @@
 import React from 'react'
 import './details.css'
+import Foot from '../Foot/Foot'
 import { Link } from 'react-router-dom'
 import img44 from '../images/44.png'
 import img17 from '../images/17.png'
@@ -38,8 +39,10 @@ class Details extends React.Component {
                   </div>
             </div>
 
-            <p className='details-18'>接受任务</p>
-
+            <div className='details-19'>
+              <p className='details-18'>接受任务</p>
+            </div>
+            <Foot />
           </div>
         )
   }
