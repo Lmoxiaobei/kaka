@@ -15,13 +15,19 @@
   margin-top: 10%;
   width: 87%;
   height: 6%;
+  text-indent: 20%;
+  border-bottom: 1px solid #000;
+  border-radius: 4px;
 }
 .homepage-3{
   background-color: #E0E0E0;
   margin: 0 auto;
   width: 87%;
   height:6%;
+  text-indent: 20%;
   display: block;
+  border-bottom: 1px solid #000;
+  border-radius: 4px;
 }
 .homepage-6{
   width: 7%;

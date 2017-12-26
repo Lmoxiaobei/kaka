@@ -1,7 +1,7 @@
 import React from 'react'
 import './setup.css'
-import { Link } from 'react-router-dom'
 import { Switch } from 'antd';
+import { Link } from 'react-router-dom'
 import img44 from '../images/44.png'
 import img16 from '../images/16.png'
 import img30 from '../images/30.png'
@@ -16,6 +16,8 @@ class SetUp extends React.Component {
               </Link>
                 <span className='setup-3'>设置</span>
             </div>
+
+
 
             <div className='setup-4'>
                 <img src={img16} alt=""/>

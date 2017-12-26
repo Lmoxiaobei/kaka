@@ -23,6 +23,7 @@ import SetUp from '..//SetUp/SetUp'
 import Foot from '..//Foot/Foot'
 import Recharge from '..//Recharge/Recharge'
 import Feedback from '..//Feedback/Feedback'
+import AboutUs from '..//AboutUs/AboutUs'
 
 class App extends React.Component {
   render () {
@@ -48,6 +49,7 @@ class App extends React.Component {
           <Route path='/topic/create/sign/setup' component={SetUp} />
           <Route path='/topic/create/sign/recharge' component={Recharge} />
           <Route path='/topic/create/sign/feedback' component={Feedback} />
+          <Route path='/topic/create/sign/aboutus' component={AboutUs} />
           <Route path='/topic/create/prompt' exact component={Prompt} />
           <Route path='/topic/create/prompt/promptq' component={Promptq} />
           <Route path='/topic/create/prompt/promptw' component={Promptw} />

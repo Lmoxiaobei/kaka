@@ -115,6 +115,7 @@ class  Sign extends React.Component {
             </Link>
 
 
+            <Link to='/topic/create/sign/aboutus'>
               <div className='sign-10-0'>
                 <div className='sign-10'>
                   <img className='sign-10-1' src={img65} alt=""/>
@@ -124,7 +125,7 @@ class  Sign extends React.Component {
                   </div>
                 </div>
               </div>
-
+            </Link>
 
             <Link to='/topic/create/sign/setup'>
               <div className='sign-11-0'>
