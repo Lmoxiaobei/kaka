@@ -1,0 +1,138 @@
+.personaldata-1{
+  background-image: url(../images/13.png);
+  display: flex;
+}
+.personaldata-2{
+  width: 50%;
+  height: 70%;
+  padding-top: 20%;
+  margin-left: 17%;
+  display: block;
+}
+.personaldata-3{
+  color: #fff;
+  margin-top: 2%;
+  margin-left: 28%;
+  margin-bottom: 1%;
+}
+
+
+.personaldata-4{
+  width: 100%;
+  background-image: url(../images/13.png);
+  height: 40%;
+}
+.personaldata-4-1{
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+.personaldata-4-2{
+  background-color: #FF6347;
+  width: 24%;
+  color: #fff;
+  margin-left: 8%;
+}
+.ant-upload.ant-upload-select{
+  /*display: inline-block-none;*/
+  margin-top: 4%;
+  margin-left: 36%;
+  margin-bottom: 4%;
+}
+.ant-btn{
+  background-color: rgba(0,0,0,0.1);
+  color: #fff;
+}
+.personaldata-4-4{
+  text-align: center;
+  color: #fff;
+}
+.personaldata-4-5{
+  margin-left: 36%;
+  background-color: rgba(0,0,0,0.1);
+  color: #fff;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  border-radius: 5px;
+}
+/**/
+.personaldata-5{
+  border-bottom: 1px solid #000;
+  width: 90%;
+  margin-left: 10%;
+  padding-top: 4%;
+}
+.personaldata-5-2{
+  transform: rotate(-90deg);
+  width: 6%;
+  margin-left: 88%;
+  margin-top: -12%;
+}
+.personaldata-5-3{
+  margin-left: 20%;
+}
+/**/
+.personaldata-6{
+  border-bottom: 1px solid #000;
+  width: 90%;
+  margin-left: 10%;
+  padding-top: 4%;
+}
+.personaldata-6-2{
+  transform: rotate(-90deg);
+  width: 6%;
+  margin-left: 88%;
+  margin-top: -12%;
+}
+.personaldata-6-3{
+  margin-left: 20%;
+}
+/**/
+.personaldata-7{
+  border-bottom: 1px solid #000;
+  width: 90%;
+  margin-left: 10%;
+  padding-top: 4%;
+}
+.personaldata-7-2{
+  transform: rotate(-90deg);
+  width: 6%;
+  margin-left: 88%;
+  margin-top: -12%;
+}
+.personaldata-7-3{
+  margin-left: 20%;
+}
+/**/
+.personaldata-8{
+  border-bottom: 1px solid #000;
+  width: 90%;
+  margin-left: 10%;
+  padding-top: 4%;
+}
+.personaldata-8-2{
+  transform: rotate(-90deg);
+  width: 6%;
+  margin-left: 88%;
+  margin-top: -12%;
+}
+.personaldata-8-3{
+  margin-left: 10%;
+}
+/**/
+.personaldata-9{
+  border-bottom: 1px solid #000;
+  width: 90%;
+  margin-left: 10%;
+  padding-top: 4%;
+  padding-bottom: 21%;
+}
+.personaldata-9-2{
+  transform: rotate(-90deg);
+  width: 6%;
+  margin-left: 88%;
+  margin-top: -12%;
+}
+.personaldata-9-3{
+  margin-left: 10%;
+}

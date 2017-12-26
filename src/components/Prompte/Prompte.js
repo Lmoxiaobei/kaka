@@ -3,6 +3,7 @@ import './prompte.css'
 import { Link } from 'react-router-dom'
 import { Button } from 'antd';
 import 'antd/dist/antd.css';
+import Foot from '../Foot/Foot'
 import img44 from '../images/44.png'
 import img43 from '../images/43.png'
 import img48 from '../images/48.png'
@@ -65,6 +66,7 @@ class Prompte extends React.Component {
               </div>
             </div>
 
+          <Foot />
           </div>
         )
   }

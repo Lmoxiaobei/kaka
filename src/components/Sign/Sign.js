@@ -2,6 +2,7 @@ import React from 'react'
 import './sign.css'
 import { Link } from 'react-router-dom'
 import Foot from '../Foot/Foot'
+import { Button } from 'antd';
 import img16 from '../images/16.png'
 import img29 from '../images/29.svg'
 import img30 from '../images/30.png'
@@ -14,7 +15,6 @@ import img63 from '../images/63.png'
 import img64 from '../images/64.png'
 import img65 from '../images/65.png'
 import img66 from '../images/66.png'
-import { Button } from 'antd';
 import 'antd/dist/antd.css';
 class  Sign extends React.Component {
   render () {

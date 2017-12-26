@@ -2,6 +2,7 @@ import React from 'react'
 import './promptw.css'
 import { Link } from 'react-router-dom'
 import img44 from '../images/44.png'
+import Foot from '../Foot/Foot'
 class Promptw extends React.Component {
   render () {
         return(
@@ -25,6 +26,7 @@ class Promptw extends React.Component {
                   </div>
             </div>
 
+            <Foot />
           </div>
         )
   }

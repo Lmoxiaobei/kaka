@@ -24,10 +24,13 @@ class SetUp extends React.Component {
             </div>
 
 
+            <Link to='/topic/create/sign/setup/personaldata'>
               <div className='setup-5'>
                     <span className='setup-5-1'>修改个人资料</span>
                     <img className='setup-5-2' src={img30} alt=""/>
               </div>
+            </Link>
+
 
               <div className='setup-6'>
                     <span className='setup-6-1'>修改密码</span>

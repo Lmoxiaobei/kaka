@@ -1,6 +1,7 @@
 import React from 'react'
 import './aboutus.css'
 import { Link } from 'react-router-dom'
+import Foot from '../Foot/Foot'
 import img44 from '../images/44.png'
 import img5 from '../images/5.png'
 class AboutUs extends React.Component {
@@ -39,6 +40,7 @@ class AboutUs extends React.Component {
               <span>一个帮你实现你现在你想看不到的景象平台帮你了解现在发送的真实景象</span>
           </div>
 
+          <Foot />
         </div>
       )
   }

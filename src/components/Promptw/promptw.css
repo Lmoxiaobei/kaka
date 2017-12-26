@@ -39,18 +39,20 @@
     margin: 0 auto;
     height: 36%;
     border-radius: 5px;
+    margin-bottom: 74%;
     /*display: flex;*/
 }
 .promptw-5-1{
     margin-left: 4%;
+    margin-bottom: 10%;
 }
 .promptw-5-2{
   color: #838B8B;
   font-size: 14px;
-
 }
 .promptw-6{
   width: 96%;
   margin-left: 4%;
   margin-top: 30%;
+
 }

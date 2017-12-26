@@ -1,6 +1,7 @@
 import React from 'react'
 import './promptq.css'
 import { Link } from 'react-router-dom'
+import Foot from '../Foot/Foot'
 import img44 from '../images/44.png'
 import img16 from '../images/16.png'
 import img35 from '../images/35.png'
@@ -31,6 +32,8 @@ class Promptq extends React.Component {
             <div className='promptq-7'>
                 <input className='promptq-7-1' type="text"/>
             </div>
+
+            <Foot />
           </div>
         )
   }

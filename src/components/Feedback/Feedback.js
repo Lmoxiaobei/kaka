@@ -1,6 +1,7 @@
 import React from 'react'
 import './feedback.css'
 import { Cascader } from 'antd';
+import Foot from '../Foot/Foot'
 import { Link } from 'react-router-dom'
 import img44 from '../images/44.png'
 class Feedback extends React.Component {
@@ -65,7 +66,7 @@ class Feedback extends React.Component {
               </div>
             </Link>
 
-
+          <Foot />
           </div>
         )
   }

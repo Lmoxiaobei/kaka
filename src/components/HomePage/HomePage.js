@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Foot from '../Foot/Foot'
 import img5 from '../images/5.png'
 import img6 from '../images/6.png'
 import img7 from '../images/7.png'
@@ -31,6 +32,8 @@ class HomePage extends React.Component {
               </p>
             </div>
           <button className='homepage-13'>随便看看</button>
+
+        <Foot />
         </div>
       )
   }

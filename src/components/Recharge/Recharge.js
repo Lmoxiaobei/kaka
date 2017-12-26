@@ -2,6 +2,7 @@ import React from 'react'
 import './recharge.css'
 import { Link } from 'react-router-dom'
 import { Button } from 'antd';
+import Foot from '../Foot/Foot'
 import img68 from '../images/68.jpg'
 import img69 from '../images/69.jpg'
 class Recharge extends React.Component {
@@ -61,7 +62,7 @@ class Recharge extends React.Component {
               </div>
             </Link>
 
-
+          <Foot />
           </div>
         )
   }

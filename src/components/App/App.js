@@ -24,6 +24,7 @@ import Foot from '..//Foot/Foot'
 import Recharge from '..//Recharge/Recharge'
 import Feedback from '..//Feedback/Feedback'
 import AboutUs from '..//AboutUs/AboutUs'
+import PersonalData from '..//PersonalData/PersonalData'
 
 class App extends React.Component {
   render () {
@@ -46,7 +47,8 @@ class App extends React.Component {
           <Route path='/topic/create/sign/completed' component={Completed} />
           <Route path='/topic/create/sign/completedq' component={Completedq} />
           <Route path='/topic/create/sign/completedw' component={Completedw} />
-          <Route path='/topic/create/sign/setup' component={SetUp} />
+          <Route path='/topic/create/sign/setup' exact component={SetUp} />
+          <Route path='/topic/create/sign/setup/personaldata' component={PersonalData} />
           <Route path='/topic/create/sign/recharge' component={Recharge} />
           <Route path='/topic/create/sign/feedback' component={Feedback} />
           <Route path='/topic/create/sign/aboutus' component={AboutUs} />
