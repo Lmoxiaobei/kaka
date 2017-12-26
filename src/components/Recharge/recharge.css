@@ -2,10 +2,12 @@
   background-image: url(../images/13.png);
   /*display: flex;*/
   padding-bottom: 4%;
+  padding-top: 4%;
 }
 .recharge-2{
   color: #fff;
-  margin-left: 1%;
+  margin-left: 8%;
+
 }
 .recharge-3{
   color: #fff;
@@ -93,5 +95,5 @@
   padding-bottom: 2%;
 }
 .recharge-11{
-  padding-bottom: 32%;
+  padding-bottom: 36%;
 }

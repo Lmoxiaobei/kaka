@@ -25,6 +25,8 @@ import Recharge from '..//Recharge/Recharge'
 import Feedback from '..//Feedback/Feedback'
 import AboutUs from '..//AboutUs/AboutUs'
 import PersonalData from '..//PersonalData/PersonalData'
+import Account from '..//Account/Account'
+import Accountq from '..//Accountq/Accountq'
 
 class App extends React.Component {
   render () {
@@ -55,7 +57,9 @@ class App extends React.Component {
           <Route path='/topic/create/prompt' exact component={Prompt} />
           <Route path='/topic/create/prompt/promptq' component={Promptq} />
           <Route path='/topic/create/prompt/promptw' component={Promptw} />
-          <Route path='/topic/create/prompt/prompte' component={Prompte} />
+          <Route path='/topic/create/prompt/prompte' exact component={Prompte} />
+          <Route path='/topic/create/prompt/prompte/account' component={Account} />
+          <Route path='/topic/create/prompt/prompte/accountq' component={Accountq} />
 
           <Foot />
         </Switch>

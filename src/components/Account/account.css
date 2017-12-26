@@ -1,0 +1,86 @@
+.account-1{
+  background-image: url(../images/13.png);
+  /*display: flex;*/
+  padding-bottom: 4%;
+  padding-top: 4%;
+}
+.account-2{
+  color: #fff;
+  margin-left: 8%;
+
+}
+.account-3{
+  color: #fff;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-bottom: 1%;
+}
+.account-4{
+  background-color: #FFF0F5;
+  padding-top: 4%;
+  padding-bottom: 55%;
+}
+.account-5{
+  width: 96%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
+.account-5-1{
+  display: flex;
+}
+.account-6{
+  margin-left: 10%;
+}
+.account-7{
+  margin-left: 10%;
+}
+.account-8-1{
+  margin-left: 10%;
+}
+.account-8-2{
+  margin-left: 6%;
+}
+.account-9{
+  margin-top: 4%;
+}
+.account-9 p{
+  margin-left: 10%;
+}
+.account-10{
+  margin-top: 4%;
+}
+.account-10 input{
+  margin-left: 10%;
+}
+.account-11{
+  margin-top: 4%;
+}
+.account-11 span{
+  margin-left: 10%;
+}
+/**/
+.account-12-1{
+  width: 80%;
+  height: 7%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 13%;
+  color:#fff;
+  border:2px solid;
+  border-radius:5px;
+  background-image: url(../images/13.png);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.account-12{
+  /*padding-bottom: 50%;*/
+}
+.account-13{
+  margin-top: 4%;
+}
+.account-13 p{
+  text-align: center;
+}

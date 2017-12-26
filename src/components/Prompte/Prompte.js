@@ -23,7 +23,7 @@ class Prompte extends React.Component {
                 <img className='prompte-3-1' src={img48} alt=""/>
             </div>
 
-            <div className='prompte-4'>
+          <div className='prompte-4'>
               <div className='prompte-4-1'>
                 <img className='prompte-4-1-1' src={img49} alt=""/>
               </div>
@@ -31,13 +31,16 @@ class Prompte extends React.Component {
                 <p className='prompte-4-2-1'>现金余额</p>
                 <p className='prompte-4-2-2'>26.60</p>
               </div>
+
+          <Link to='/topic/create/prompt/prompte/account'>
               <div className='prompte-4-3'>
                   <Button>提现</Button>
               </div>
-            </div>
+          </Link>
+        </div>
 
 
-            <div className='prompte-5'>
+          <div className='prompte-5'>
               <div className='prompte-5-1'>
                 <img className='prompte-5-1-1' src={img50} alt=""/>
               </div>
@@ -45,10 +48,13 @@ class Prompte extends React.Component {
                 <p className='prompte-5-2-1'>积分余额</p>
                 <p className='prompte-5-2-2'>180.00</p>
               </div>
+
+            <Link to='/topic/create/prompt/prompte/accountq'>
               <div className='prompte-5-3'>
                   <Button>兑现</Button>
               </div>
-            </div>
+            </Link>
+          </div>
 
             <div className='prompte-6'>
               <img src={img43} alt=""/>
