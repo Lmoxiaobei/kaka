@@ -1,0 +1,106 @@
+.setup-1{
+  background-image: url(../images/13.png);
+  display: flex;
+}
+.setup-2{
+  width: 50%;
+  height: 70%;
+  padding-top: 20%;
+  margin-left: 17%;
+  display: block;
+}
+.setup-3{
+  color: #fff;
+  margin-top: 2%;
+  margin-left: 28%;
+  margin-bottom: 1%;
+}
+.setup-4{
+  width: 100%;
+  background-image: url(../images/13.png);
+  height: 40%;
+}
+.setup-4 img{
+  width: 20%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  margin-left: 40%;
+}
+/**/
+.setup-5{
+  border-bottom: 1px solid #000;
+  width: 90%;
+  margin-left: 10%;
+  padding-top: 4%;
+}
+.setup-5-2{
+  transform: rotate(-90deg);
+  width: 6%;
+  margin-left: 88%;
+  margin-top: -12%;
+}
+/**/
+.setup-6{
+  border-bottom: 1px solid #000;
+  width: 90%;
+  margin-left: 10%;
+  padding-top: 4%;
+}
+.setup-6-2{
+  transform: rotate(-90deg);
+  width: 6%;
+  margin-left: 88%;
+  margin-top: -12%;
+}
+/**/
+.setup-7{
+  border-bottom: 1px solid #000;
+  width: 90%;
+  margin-left: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.setup-7-2{
+  margin-left: 63%;
+}
+/**/
+.setup-8{
+  border-bottom: 1px solid #000;
+  width: 90%;
+  margin-left: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.setup-8-2{
+  margin-left: 48%;
+}
+.ant-switch-checked{
+  background-color: red;
+}
+/**/
+.setup-9{
+  border-bottom: 1px solid #000;
+  width: 90%;
+  margin-left: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.setup-9-2{
+  margin-left: 52%;
+}
+.setup-10-1{
+  width: 70%;
+  height: 7%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 13%;
+  color:#fff;
+  border:2px solid;
+  border-radius:5px;
+  background-image: url(../images/13.png);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.setup-10{
+  padding-bottom: 25%;
+}

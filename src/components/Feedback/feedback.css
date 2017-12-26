@@ -1,0 +1,26 @@
+.feedback-1{
+  background-image: url(../images/13.png);
+  display: flex;
+}
+.feedback-2{
+  width: 50%;
+  height: 70%;
+  padding-top: 20%;
+  margin-left: 17%;
+  display: block;
+}
+.feedback-3{
+  color: #fff;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-bottom: 1%;
+}
+.feedback-4{
+  background-color: #E5E5E5;
+}
+.feedback-4 p{
+  font-size: 14px;
+  margin-left: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}

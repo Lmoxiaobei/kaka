@@ -1,0 +1,97 @@
+.recharge-1{
+  background-image: url(../images/13.png);
+  /*display: flex;*/
+  padding-bottom: 4%;
+}
+.recharge-2{
+  color: #fff;
+  margin-left: 1%;
+}
+.recharge-3{
+  color: #fff;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-bottom: 1%;
+}
+.recharge-4{
+  margin-left: 4%;
+  margin-top: 2%;
+  font-size: 14px;
+}
+.recharge-5 Button{
+  width: 20%;
+  margin-left: 4%;
+}
+.recharge-6 Button{
+  width: 20%;
+  margin-left: 4%;
+  margin-top: 10%;
+}
+.ant-btn{
+  font-size: 12px;
+}
+.recharge-7{
+  margin-top: 4%;
+  margin-left: 4%;
+  margin-left: 4%;
+}
+.recharge-7-2{
+  border-radius: 4px;
+  width: 35%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.recharge-8{
+  margin-left: 4%;
+  margin-top: 4%;
+}
+
+.recharge-9{
+  width: 100%;
+  /*background-image: url(../images/13.png);*/
+  height: 40%;
+  display: flex;
+}
+.recharge-9-1{
+  width: 30%;
+  margin-left: 4%;
+  margin-top: 10%;
+}
+.recharge-9-2{
+  background-color: red;
+  width: 24%;
+  color: #fff;
+  margin-left: 8%;
+}
+.recharge-9-3{
+  width: 30%;
+  margin-left: 4%;
+  margin-top: 10%;
+}
+.recharge-9-4{
+  background-color: red;
+  width: 24%;
+  color: #fff;
+  margin-left: 8%;
+}
+.recharge-10{
+  margin-left: 4%;
+  margin-top: 4%;
+}
+/**/
+.recharge-11-1{
+  width: 70%;
+  height: 7%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 13%;
+  color:#fff;
+  border:2px solid;
+  border-radius:5px;
+  background-image: url(../images/13.png);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.recharge-11{
+  padding-bottom: 25%;
+}

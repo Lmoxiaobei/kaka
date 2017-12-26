@@ -43,9 +43,9 @@ class  Sign extends React.Component {
                   </div>
                 </div>
               </div>
-
             </Link>
 
+          <Link to='/topic/create/sign/recharge'>
             <div className='sign-3-0'>
               <div className='sign-3'>
                 <img className='sign-3-1' src={img60} alt=""/>
@@ -55,6 +55,7 @@ class  Sign extends React.Component {
                 </div>
               </div>
             </div>
+          </Link>
 
           <div className='sign-4'></div>
 
@@ -100,6 +101,8 @@ class  Sign extends React.Component {
 
             <div className='sign-8'></div>
 
+
+            <Link to='/topic/create/sign/feedback'>
               <div className='sign-12-0'>
                 <div className='sign-12'>
                   <img className='sign-12-1' src={img64} alt=""/>
@@ -109,6 +112,8 @@ class  Sign extends React.Component {
                   </div>
                 </div>
               </div>
+            </Link>
+
 
               <div className='sign-10-0'>
                 <div className='sign-10'>
@@ -120,6 +125,8 @@ class  Sign extends React.Component {
                 </div>
               </div>
 
+
+            <Link to='/topic/create/sign/setup'>
               <div className='sign-11-0'>
                 <div className='sign-11'>
                   <img className='sign-11-1' src={img66} alt=""/>
@@ -129,7 +136,7 @@ class  Sign extends React.Component {
                   </div>
                 </div>
               </div>
-
+            </Link>
 
 
 

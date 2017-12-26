@@ -19,7 +19,10 @@ import Sign from '..//Sign/Sign'
 import Completed from '..//Completed/Completed'
 import Completedq from '..//Completedq/Completedq'
 import Completedw from '..//Completedw/Completedw'
+import SetUp from '..//SetUp/SetUp'
 import Foot from '..//Foot/Foot'
+import Recharge from '..//Recharge/Recharge'
+import Feedback from '..//Feedback/Feedback'
 
 class App extends React.Component {
   render () {
@@ -42,6 +45,9 @@ class App extends React.Component {
           <Route path='/topic/create/sign/completed' component={Completed} />
           <Route path='/topic/create/sign/completedq' component={Completedq} />
           <Route path='/topic/create/sign/completedw' component={Completedw} />
+          <Route path='/topic/create/sign/setup' component={SetUp} />
+          <Route path='/topic/create/sign/recharge' component={Recharge} />
+          <Route path='/topic/create/sign/feedback' component={Feedback} />
           <Route path='/topic/create/prompt' exact component={Prompt} />
           <Route path='/topic/create/prompt/promptq' component={Promptq} />
           <Route path='/topic/create/prompt/promptw' component={Promptw} />

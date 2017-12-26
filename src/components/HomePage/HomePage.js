@@ -21,7 +21,6 @@ class HomePage extends React.Component {
           <br/>
           <Link to='/topic/create/home'>
             <button className='homepage-10'>登录</button>
-
           </Link>
           <p className='homepage-11'>or</p>
             <div className='homepage-12'>
