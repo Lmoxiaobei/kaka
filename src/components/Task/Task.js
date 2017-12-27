@@ -41,7 +41,7 @@ class Task extends React.Component {
             <div className='task-17'></div>
 
             <div className='task-19'>
-              <p className='task-18'>接受任务</p>
+              <p className='task-18' >接受任务</p>
             </div>
 
           <Foot />
