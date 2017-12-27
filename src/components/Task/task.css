@@ -15,8 +15,8 @@
 }
 .task-3{
   color: #fff;
-  margin-top: 1%;
-  margin-left: 33%;
+  margin-top: 2%;
+  margin-left: 28%;
   margin-bottom: 1%;
 }
 .task-4{
@@ -25,11 +25,11 @@
 }
 .task-5{
   width: 30%;
-  margin-left: 40%;
+  margin-left: 36%;
   margin-top: 6%;
 }
 .task-6{
-  margin-left: 46%;
+  margin-left: 43%;
 }
 .task-7{
   width: 4%;
@@ -82,4 +82,63 @@
 }
 .task-19{
   padding-bottom: 47%;
+}
+
+
+
+
+
+/**/
+.task-20{
+  position: absolute;
+  top:0;
+  width: 100vw;
+  height: 102vh;
+  background: rgba(0,0,0,0.9);
+  color:#fff;
+}
+.task-20>div>p{
+  font-size: 18px;
+  text-align: center;
+}
+.task-21{
+  margin: 0 auto;
+  background-size: cover;
+  margin-top: 18%;
+  width: 80%;
+}
+.task-24-4{
+  background-color: red;
+  color: #fff;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 0px 0px 5px 5px;
+}
+.task-21-1 img{
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+}
+.task-21-1 p{
+  text-align: center;
+}
+
+.task-22-1{
+  border-bottom: 1px solid #fff;
+}
+.task-23-1{
+  margin-top: 10%;
+}
+.task-24{
+  background-color: #EEE0E5;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  color: #000;
+  border-radius: 5px;
+  padding-top: 1.5%;
+  padding-bottom: 1%;
+  /*height: 5%;*/
+  margin-top: 23%;
 }

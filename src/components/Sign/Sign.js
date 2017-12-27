@@ -26,9 +26,12 @@ class  Sign extends React.Component {
 
             <div className='sign-9'>
               <img className='sign-9-1' src={img16} alt=""/>
+
+            <Link to='/topic/create/home'>
               <Button type="danger" className='sign-9-2'>
                 <img className='sign-9-3' src={img58} alt=""/>签到
-              </Button>
+                </Button>            
+            </Link>
                 <p className='sign-9-4'>18282222222</p>
                 <Button type="danger" className='sign-9-5'>我的名片</Button>
             </div>

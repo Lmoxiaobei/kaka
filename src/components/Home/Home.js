@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import Foot from '../Foot/Foot' 
+import Foot from '../Foot/Foot'
 import { Link } from 'react-router-dom'
 import img11 from '../images/11.png'
 import img12 from '../images/12.png'
@@ -34,7 +34,8 @@ class Home extends React.Component {
         id:3
       },
     ],
-    show:0
+    show:0,
+    clone:true
   }
   handleClick = (ind) => {
     this.setState({
@@ -55,6 +56,13 @@ return  this.loop = setInterval( () => {
   },2000)
 }
 
+
+handlenone=()=>{
+    this.setState({
+      clone:false
+    })
+}
+
 componentDidMount(){
   this.loop = this.tumer()
 }
@@ -64,10 +72,6 @@ handleEnter = () => {
 handleLeave = () => {
   this.loop = this.tumer()
 }
-
-
-
-
 // 在组件将要被移除的时候，清除 loop
 componentWillUnmount() {
   clearTimeout(this.loop)
@@ -159,6 +163,18 @@ componentWillUnmount() {
                 <span className='index-11-6' >261</span>
               </div>
             </div>
+
+
+            <div className='rewards' onClick={this.handlenone} style={ {display : this.state.clone ? 'block' : 'none'} }>
+              <div className='rewards-1'>
+                <p>恭喜您获得今日奖励</p>
+                <span>+10</span>
+                <span>积分</span>
+              </div>
+              <p className='rewards-4'>每日登录即可获得奖励</p>
+            </div>
+
+
 
           <Foot />
           </div>

@@ -27,6 +27,7 @@ import AboutUs from '..//AboutUs/AboutUs'
 import PersonalData from '..//PersonalData/PersonalData'
 import Account from '..//Account/Account'
 import Accountq from '..//Accountq/Accountq'
+import Reply from '..//Reply/Reply'
 
 class App extends React.Component {
   render () {
@@ -40,7 +41,8 @@ class App extends React.Component {
           <Route path='/topic/create/home' exact component={Home} />
           <Route path='/topic/create/home/choice' component={Choice} />
           <Route path='/topic/create/home/details' component={Details} />
-          <Route path='/topic/create/home/task' component={Task} />
+          <Route path='/topic/create/home/task' exact component={Task} />
+          <Route path='/topic/create/home/task/reply' component={Reply} />
           <Route path='/topic/create/home/publish' component={Publish} />
           <Route path='/topic/create/home/cancel' component={Cancel} />
           <Route path='/topic/create/find' exact component={Find} />
