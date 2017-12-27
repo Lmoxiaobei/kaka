@@ -13,9 +13,9 @@ class HomePage extends React.Component {
       return(
         <div className='homepage-0'>
           <img className='homepage-1' src={img5} alt=""/>
-          <input className='homepage-2' type="text" placeholder="              请输入手机号" />
+          <input className='homepage-2' type="text" placeholder="请输入手机号" />
           <img className='homepage-6' src={img6} alt=""/>
-          <input className='homepage-3' type="password" placeholder="              请输入密码" />
+          <input className='homepage-3' type="password" placeholder="请输入密码" />
           <img className='homepage-7' src={img7} alt=""/>
           <span className='homepage-8'>忘记密码?</span>
           <span className='homepage-9'>重置</span>
@@ -31,7 +31,9 @@ class HomePage extends React.Component {
                 <img src={img10} alt=""/>
               </p>
             </div>
-          <button className='homepage-13'>随便看看</button>
+            <Link to='/topic/create/home'>
+              <button className='homepage-13'>随便看看</button>
+            </Link>
 
         <Foot />
         </div>

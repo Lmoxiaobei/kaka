@@ -28,7 +28,7 @@ class Reply extends React.Component {
         <Link to='/topic/create/home'>
           <div className='reply-7'>
             <p className='reply-8'>发送</p>
-          </div>      
+          </div>
         </Link>
 
         <Foot />

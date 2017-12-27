@@ -5,6 +5,9 @@ import Foot from '../Foot/Foot'
 import img44 from '../images/44.png'
 import img16 from '../images/16.png'
 import img35 from '../images/35.png'
+import img72 from '../images/72.png'
+import img73 from '../images/73.png'
+import img74 from '../images/74.png'
 class Promptq extends React.Component {
   render () {
         return(
@@ -30,7 +33,10 @@ class Promptq extends React.Component {
             </div>
 
             <div className='promptq-7'>
+              <img src={img72} alt=""/>
                 <input className='promptq-7-1' type="text"/>
+                <img src={img73} alt=""/>
+                <img src={img74} alt=""/>
             </div>
 
             <Foot />
